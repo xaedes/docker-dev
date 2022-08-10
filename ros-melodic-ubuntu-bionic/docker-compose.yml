@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  dev-ros-melodic-bionic:
+    build: .
+    stdin_open: true
+    volumes:
+      - ./files:/home/dev
